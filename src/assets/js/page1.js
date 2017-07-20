@@ -1,7 +1,7 @@
 var app = angular.module("app");
 
 
-app.controller("page1", function($scope){
+app.controller("page1", function($scope, $location){
 
     // CONCEPT.
     console.log("PAGE1");
@@ -11,8 +11,10 @@ app.controller("page1", function($scope){
     $scope.moreData = {"sdate" : new Date()};
 
 
-    $scope.mymethod1 = function(){
+    $scope.goToPage2 = function(){
 
-    }
+
+        $location.path("/page2");
+    };
 
 });
