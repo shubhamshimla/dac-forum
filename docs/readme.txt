@@ -9,5 +9,11 @@
     >> bower Install
 
 
+>> NOTE:: ******************
+    >> GIT MUST BE PROPERLY INSTALLED.
+    >> GITHUP A/C MUST BE PROPERLY CONFIGURED.
+
+
+
 
     
