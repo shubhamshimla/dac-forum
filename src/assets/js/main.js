@@ -22,3 +22,10 @@ app.config(function($routeProvider){
 
 
 });
+
+
+app.run(function($rootScope, $location){
+    $rootScope.$on("$locationChangeStart", function(){
+        console.log(new Date());
+    });
+});
