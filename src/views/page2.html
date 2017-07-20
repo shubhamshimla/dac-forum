@@ -1,3 +1,6 @@
 
-<!-- VIEW 2 -->
-<div class="jumbotron">{{data1.title}}</div>
+<div class="jumbotron" ng-repeat="item in dataList" style="background: {{item.color}}; text-align:center;color:white;font-weight:bold;">
+    {{item.title}}
+</div>
+
+<button type="button" class="btn btn-sm btn-primary" ng-click="goToPage1()">GO TO PAGE1</button>
